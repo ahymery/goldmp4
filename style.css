@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ENTETE */
+
+header {
+    background: midnightblue;
+}
+ul {
+    margin: 0 0 0 150px;
+    display:flex;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+nav ul li a {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 20px 15px;
+    margin-top: 15px;
+    &&:hover{
+        opacity: 0.5;
+    }
+}
+
+nav a img {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 100px;
+    height: 100px;
+    display:flex;
+    border-radius: 50%;
+    border: 10px solid midnightblue;
+    &&:hover{
+        border: 10px solid rgb(158, 158, 252);
+    }
+}
+/* Contenu de la page */
+
+section {
+    padding: 50px;
+    margin: 50px;
+    padding-top: 50px;
+}
+
+h1 {
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#videos img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    float: inline-start;
+    align-self: center;
+    &&:hover{
+        transform: scale(1.1);
+        border-radius: 20px;
+        }
+}
+
+#videos h3 {
+    padding: 15px;
+}
+
+
+/* Pied de page */
+
+.reseaux a img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+    &&:hover{
+        opacity: 0.5;
+    }
+}
+
+#x {
+    border-radius: 50%;
+    margin: 12px;
+    width: 35px;
+    height: 35px;
+}
+footer{
+    background: fixed midnightblue;
+    padding: 25px;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(204, 201, 201);
+}
